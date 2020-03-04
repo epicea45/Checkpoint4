@@ -1,0 +1,18 @@
+.home{
+    background-image: url(https://images.assetsdelivery.com/compings_v2/kran77/kran771501/kran77150100014.jpg);
+    background-size: cover;
+}
+
+.home .wilders{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: crimson;
+}
+
+.home .company{
+    display: flex;
+    background-color: aqua;
+    max-width: 100%;
+	height: auto;
+}
