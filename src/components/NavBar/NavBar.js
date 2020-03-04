@@ -5,7 +5,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <div className="navCheck">
+    <div className="NavPosition">
       <img
         className="logo"
         src={require('../../assets/images/Logo.png')}

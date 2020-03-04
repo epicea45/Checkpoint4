@@ -1,0 +1,20 @@
+.NavPosition{
+    display: flex;
+    flex-direction: row;
+    margin: 20vh;
+    
+    background-color: yellow;
+
+}
+
+.logo{
+    width: 20vh;
+    height: 20vh;
+}
+
+.NavBarAdminLeft{
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0px 0%;
+}
