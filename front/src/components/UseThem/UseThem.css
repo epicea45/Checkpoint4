@@ -1,7 +1,7 @@
 .container input{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(212, 199, 199);
     margin-left: 50vh;
     margin-right: 50vh;
     padding: 2vh;
@@ -10,7 +10,7 @@
 .container textarea{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(212, 199, 199);
     margin-left: 50vh;
     margin-right: 50vh;
     padding: 2vh;
