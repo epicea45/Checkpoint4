@@ -1,25 +1,24 @@
 import React from 'react';
 import './Ambiance.css';
+import NavBar from '../NavBar/NavBar';
 
 
 const Ambiance = () => {
   return (
     <div className="animated">
+      <NavBar />
         <h1 className="wilders">Entrez dans leurs univers remplit</h1>
-        <h1 className="wilders">de Code</h1>
-        <h1 className="wilders">de Sucreries</h1>
-        <h1 className="wilders">de Siestes</h1>
-        <h1 className="wilders">et d'Humour...</h1>
+        <h1 className="wilders">de Code, de Sucreries, de Siestes et d'Humour...</h1>
 
         <img
           className="selfhelp"
-          src={require('../../assets/images/coding.jpeg')}
+          src={require('../../assets/images/dodomehdi.jpg')}
           alt="Photo de la compagnie wilders"
         />
 
         <img
           className="selfhelp"
-          src={require('../../assets/images/sucrerie.jpg')}
+          src={require('../../assets/images/toto.jpg')}
           alt="Photo de la compagnie wilders"
         />
         <img
@@ -29,7 +28,7 @@ const Ambiance = () => {
         />
         <img
           className="selfhelp"
-          src={require('../../assets/images/coding.jpeg')}
+          src={require('../../assets/images/dodowiwi.jpg')}
           alt="Photo de la compagnie wilders"
         />
     </div>
