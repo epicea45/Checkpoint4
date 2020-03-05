@@ -1,0 +1,15 @@
+.compet{
+    margin-top: 2em;
+    width: 30vh;
+    height: 30vh;
+}
+
+.element{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.cv{
+    margin-top: 0.7em;
+}
