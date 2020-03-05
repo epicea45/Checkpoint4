@@ -12,9 +12,9 @@ router.get('/', contact.findAll);
 router.get('/:contactId', contact.findById);
 
 // Create a new Contact
-router.post('/', verify.verifyToken, verify.verifyAdmin, contact.create);
+router.post('/', contact.create);
 
-// Update contact
+// Update contact 
 router.put(
   '/:contactId',
   verify.verifyToken,

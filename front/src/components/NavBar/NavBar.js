@@ -42,7 +42,7 @@ const NavBar = () => {
         <div className="NavLign">
           <NavLink
             className="NavLink"
-            to="/embauchez"
+            to="/usethem"
             activeClassName="activeNav"
           >
             EMBAUCHEZ-LES

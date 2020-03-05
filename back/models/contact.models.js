@@ -1,12 +1,10 @@
 const db = require('./database');
 
 const Contact = function(contact) {
-  this.id = contact.id;
   this.name = contact.name;
   this.firstname = contact.firstname;
   this.wilderFirstName = contact.wilderFirstName;
   this.mail = contact.mail;
-  this.message = contact.message;
 };
 
 Contact.create = (newContact, result) => {

@@ -1,8 +1,8 @@
-const Contact = require('../models/contact.model.js');
+const Contact = require('../models/contact.models');
 
 // Create a new contact
 exports.create = (request, response) => {
-  if (!request.body.name && !request.body.firstname && !request.body.WilderFirstName && !request.body.mail && !request.body.message) {
+  if (!request.body.name && !request.body.firstname && !request.body.wilderFirstName && !request.body.mail && !request.body.message) {
     return response.status(400).send({
       message: 'Content can not be empty!'
     });
@@ -11,7 +11,7 @@ exports.create = (request, response) => {
   const contact = new Contact({
     name: request.body.name,
     firstname: request.body.firstname,
-    WilderFirstName: request.body.WilderFirstName,
+    wilderFirstName: request.body.wilderFirstName,
     mail: request.body.mail,
     message: request.body.message
   });

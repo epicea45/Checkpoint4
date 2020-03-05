@@ -1,7 +1,7 @@
 .NavPosition{
     display: flex;
     justify-content: space-evenly;
-    margin: 20vh 20vh;
+    margin: 5vh;
     text-decoration: none;
     background-color: rgb(190, 181, 181);
 }
@@ -13,7 +13,7 @@
 
 .Navlink{
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px;
 }
 
 .NavLign{

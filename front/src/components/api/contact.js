@@ -14,6 +14,7 @@ export async function postContact(contact) {
     });
     return { message: 'Votre message est pris en compte', success: true };
   } catch (error) {
+    console.log(error);
     return { message: 'Erreur dans la creation du message', success: false };
   }
 }

@@ -1,9 +1,10 @@
 import React from 'react';
-import './Embauchez.css';
-import NavBar from '../../components/NavBar/NavBar';
+import './UseThem.css';
+import NavBar from '../NavBar/NavBar';
 import Formulaire from './Formulaire';
 
-const Embauchez = () => {
+
+const UseThem = () => {
   return (
     <div className="home">
       <NavBar />
@@ -11,8 +12,9 @@ const Embauchez = () => {
           <div className="container">
             <Formulaire />
           </div>
+          
     </div>
   );
 };
 
-export default Embauchez;
+export default UseThem;

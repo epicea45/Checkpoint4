@@ -5,7 +5,7 @@ import HomePage from './components/HomePage/HomePage';
 import Wilders from './components/Wilders/Wilders';
 import Ambiance from './components/Ambiance/Ambiance';
 import Competences from './components/Competences/Competences';
-import Embauchez from './components/Embauchez/Embauchez';
+import UseThem from './components/UseThem/UseThem';
 import AdminHomePage from './components/admin/AdminHomePage/AdminHomePage';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path="/wilders" component={Wilders} />
         <Route path="/ambiance" component={Ambiance} />
         <Route path="/competences" component={Competences} />
-        <Route path="/embauchez" component={Embauchez} />
+        <Route path="/usethem" component={UseThem} />
         <Route path="/adminhomepage" component={AdminHomePage} />
       </Switch>
     </div>
