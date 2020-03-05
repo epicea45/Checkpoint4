@@ -1,20 +1,23 @@
 .NavPosition{
     display: flex;
-    flex-direction: row;
-    margin: 20vh;
-    
-    background-color: yellow;
-
+    justify-content: space-evenly;
+    margin: 20vh 20vh;
+    text-decoration: none;
+    background-color: rgb(190, 181, 181);
 }
 
-.logo{
-    width: 20vh;
-    height: 20vh;
+.linkHome{
+    width: 10vh;
+    height: 10vh;
 }
 
-.NavBarAdminLeft{
-    flex-direction: row;
+.Navlink{
     align-items: center;
     padding: 20px 50px;
-    margin: 0px 0%;
+}
+
+.NavLign{
+    margin-top: 40px;
+    color: whitesmoke;
+    list-style: none;
 }

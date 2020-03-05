@@ -1,55 +1,53 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
+
 
 
 const NavBar = () => {
   return (
     <div className="NavPosition">
-      <img
-        className="logo"
-        src={require('../../assets/images/Logo.png')}
-        alt="logo wild code school"
-      />
-      <div className="nav">
-        <div className="NavBarAdminLeft">
+      <div>
+        <Link to="/" className="link"><img className="linkHome" src={require('../../assets/images/Logo.png')} alt="logo wild code school"/></Link>
+      </div>
+        <div className="NavLign">
           <NavLink
-            className="NavLinkAdmin"
-            to="/admin-accueil"
-            activeClassName="activeAdmin"
+            className="NavLink"
+            to="/wilders"
+            activeClassName="activeNav"
           >
             WILDERS
           </NavLink>
         </div>
 
-        <div className="NavBarAdminLeft">
+        <div className="NavLign">
           <NavLink
-            className="NavLinkAdmin"
-            to="/admin-publications"
-            activeClassName="activeAdmin"
+            className="NavLink"
+            to="/ambiance"
+            activeClassName="activeNav"
           >
             AMBIANCE
           </NavLink>
         </div>
-        <div className="NavBarAdminLeft">
+        <div className="NavLign">
           <NavLink
-            className="NavLinkAdmin"
-            to="/admin-agenda"
-            activeClassName="activeAdmin"
+            className="NavLink"
+            to="/competences"
+            activeClassName="activeNav"
           >
             COMPETENCES
           </NavLink>
         </div>
-        <div className="NavBarAdminLeft">
+        <div className="NavLign">
           <NavLink
-            className="NavLinkAdmin"
-            to="/admin-adresses"
-            activeClassName="activeAdmin"
+            className="NavLink"
+            to="/embauchez"
+            activeClassName="activeNav"
           >
-            EMBAUCHER
+            EMBAUCHEZ-LES
           </NavLink>
         </div>
-      </div>
     </div>
   );
 };
