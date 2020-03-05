@@ -1,8 +1,12 @@
 .welcome{
     padding: 2em;
     color: white;
-    height: 35%;
     width: 35%; 
     text-align: center;
-    margin-left: 50vh;
+    margin-left: 55vh;
+}
+
+.recup{
+    color: grey bold;
+    font-size: 1.5rem;
 }
