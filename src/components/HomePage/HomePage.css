@@ -1,12 +1,12 @@
 .home{
     background-image: url(https://images.assetsdelivery.com/compings_v2/kran77/kran771501/kran77150100014.jpg);
     background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center center;
-     min-height: 100%;
-     padding-top: 4em;
-     padding-bottom: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding-top: 0.7em;
+    padding-bottom: 4em;
 }
 
 .home .wilders{
@@ -18,19 +18,35 @@
 
 
 
-.home .company{
-    
-     padding: 2em;
-     margin-top: 4em;
-     color: white;
-     background-color: #000218;
-     height: 40%;
-     width: 40%;
+.home .company{  
+    padding: 2em;
+    margin-top: 2em;
+    color: white;
+    background-color: #000218;
+    height: 35%;
+    width: 35%;
 }
 
-.company:hover{
+
+.home .enter{
+    padding: 2em;
+    color: white;
+    width: 18%;
+    height: 18%;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.enter:hover{
     transform: scale(1.1) translate(0, 2em);
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
     opacity: 0.7;
     transition: 0.5s;
+}
+
+.elements{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
