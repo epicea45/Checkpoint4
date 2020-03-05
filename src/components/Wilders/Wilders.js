@@ -6,9 +6,8 @@ const Wilders = () => {
   return (
     <div className="home">
         <NavBar />
-        <p className="wilders">Des wilders toujours plus fous</p>
-        <p className="wilders">Les uns que les autres</p>
-      
+        <p className="wilders">Des wilders tous plus fous les uns que les autres</p>
+      <div className="js">
         <img
           className="promojs"
           src={require('../../assets/images/Alexis fun.jpg')}
@@ -75,6 +74,7 @@ const Wilders = () => {
           src={require('../../assets/images/Zak fun.jpg')}
           alt="Photo fun de Zakaria"
         />
+      </div>  
     </div>
   );
 };

@@ -1,4 +1,15 @@
-.promojs{
-    width: 20%;
-    height: 20%;
+.js{
+    margin-top: 2em;
+    min-width: 10vh;
+    width: auto;
+    height: auto;
 }
+
+.promojs{
+    justify-self: space-around;
+    margin-top: 2em;
+    width: 30vh;
+    height: 30vh;
+    
+}
+
