@@ -7,8 +7,8 @@ const Ambiance = () => {
   return (
     <div className="home">
       <NavBar />
-        <h1 className="wilders">Entrez dans leurs univers remplit</h1>
-        <h1 className="wilders">de Code, de Sucreries, de Siestes et d'Humour...</h1>
+        <p className="wilders">Entrez dans leurs univers remplit</p>
+        <p className="wilders">de Code, de Sucreries, de Siestes et d'Humour...</p>
         <img
           className="selfhelp"
           src={require('../../assets/images/dodomehdi.jpg')}

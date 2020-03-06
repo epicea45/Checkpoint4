@@ -8,7 +8,7 @@ const Competences = () => {
   return (
     <div className="home">
         <NavBar />
-            <h1 className="wilders">Des compétences à vous couper le souffle</h1>
+            <p className="wilders">Des compétences à vous couper le souffle</p>
                 <div className="element">  
                   <div className="superdev">
                     <img

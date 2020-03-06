@@ -1,7 +1,9 @@
 .NavPosition{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 5vh;
+    margin-left: 30%;
+    margin-right: 30%;
     text-decoration: none;
     background-color: rgb(212, 199, 199);
 }
@@ -9,15 +11,24 @@
 .linkHome{
     width: 10vh;
     height: 10vh;
+    background-color: sandybrown;
 }
 
 .Navlink{
     align-items: center;
     padding: 20px;
+    background-color: slateblue;
 }
 
 .NavLign{
-    margin-top: 40px;
+    margin-top: 30px;
     color: whitesmoke;
+    justify-content: flex-start;
     list-style: none;
+    font-size: 1.3rem;
+    margin-left: 0px;
+}
+
+.NavLign:hover{
+    background-color: salmon;
 }
