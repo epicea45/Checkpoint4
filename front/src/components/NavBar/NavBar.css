@@ -32,3 +32,13 @@
 .NavLign:hover{
     background-color: salmon;
 }
+
+a:link {
+    color: rgb(32, 78, 178);
+    text-decoration: none;
+}
+
+.activeNav{
+    color: salmon;
+}
+
